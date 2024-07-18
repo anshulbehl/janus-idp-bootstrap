@@ -27,7 +27,10 @@ spec:
       spec: {}
     metrics:
       enable: true
-    pluginRegistry: {}
+    pluginRegistry:
+      deployment:
+        containers:
+          - image: quay.io/acme_corp/pluginregistryopenvsx-rhel8
   containerRegistry: {}
   networking:
     auth:
