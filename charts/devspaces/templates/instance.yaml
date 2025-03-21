@@ -28,9 +28,7 @@ spec:
     metrics:
       enable: true
     pluginRegistry:
-      deployment:
-        containers:
-          - image: quay.io/acme_corp/pluginregistryopenvsx-rhel8
+      openVSXURL: 'https://open-vsx.org'
   containerRegistry: {}
   networking:
     auth:
